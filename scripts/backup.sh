@@ -11,4 +11,4 @@ gzip $FILE
 echo "${FILE}.gz was created:"
 ls -l ${FILE}.gz
 
-rsync ${FILE}.gz ec2-user@54.229.118.144:/home/ec2-user/backups
+rsync ${FILE}.gz ec2-user@52.210.228.197:/home/ec2-user/backups
