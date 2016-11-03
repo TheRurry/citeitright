@@ -3,4 +3,4 @@ if ["$1" = '']; then
   echo please give an .gz file
 fi
 gunzip $file
-echo "drop database citeitright; create database citeitright; use citeitright; \. ${file%.*}" | mysql -u root -p
+echo "drop database sample_test; create database sample_test; use sample_test; \. ${file%.*}" | mysql -u root -p
